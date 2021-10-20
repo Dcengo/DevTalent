@@ -1,0 +1,58 @@
+
+[
+  {
+    "id": 1,
+    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-512.png",
+    "exp": "2 Year"
+  },
+  {
+    "id": 2,
+    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/wordpress-cms-word-blog-page-web-design-128.png",
+    "exp": "3 Year"
+  },
+  {
+  "id": 3,
+  "img": "https://cdn1.iconfinder.com/data/icons/designer-skills/128/photoshop-512.png",
+  "exp": "4 Year"
+},
+  {
+    "id": 4,
+    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-java-software-develop-command-language-512.png",
+    "exp": "1 Year"
+  },
+  {
+    "id": 5,
+    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-php-software-develop-command-language-512.png",
+    "exp": "2 Year"
+  },
+  {
+    "id": 6,
+    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/sass-512.png",
+    "exp": "1 Year"
+  },
+  {
+    "id": 7,
+    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/angular-512.png",
+    "exp": "1 Year"
+  },
+  {
+    "id": 8,
+    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-html-markup-develop-layout-language-512.png",
+    "exp": "4 Year"
+  },
+  {
+    "id": 9,
+    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/github-repository-svn-manage-files-contribute-branch-512.png",
+    "exp": "2 Year"
+  },
+  {
+    "id": 10,
+    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-css-style-develop-layout-language-512.png",
+    "exp": "4 Year"
+  },
+  {
+    "id": 11,
+    "img": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-jquery-develop-framework-language-512.png",
+    "exp": "3 Year"
+  }
+]

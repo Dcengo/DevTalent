@@ -1,0 +1,80 @@
+.portfolio{
+    margin-top: 90px;
+}
+
+.portfolio-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.portfolio-main>.item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 33px;
+    align-items: center;
+    text-align: center;
+    width: 24%;
+    border: 1px solid #F2F6FF;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: unset !important;
+}
+
+.portfolio-main>.item>.top{
+    width: 100%;
+    max-height: 250px;
+}
+
+.portfolio-main>.item>.top>img{
+    width: 100%;
+    max-height: 250px;
+    border-radius: 5px;
+}
+
+.portfolio-main>.item>.bottom{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 17px;
+}
+
+.portfolio-main>.item>.bottom>.text{
+    font-size: 14px;
+    font-weight: 300;
+    color: #8FAABE;
+}
+
+.hv-shadow:hover{
+    -webkit-box-shadow: 0px 1px 16px 2px #2552ac21;
+    box-shadow: 0px 1px 16px 2px #2552ac21;
+}
+
+.load-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load-more>.button{
+    color: #8FAABE;
+    border: 1px solid #F2F6FF;
+    font-weight: 300;
+    font-size: 17px;
+    padding: 9px 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 540px){
+    .portfolio-main>.item {
+        width: 48%;
+    }
+    .portfolio {
+        margin-top: 90px;
+        padding: 0 15px;
+    }
+
+}

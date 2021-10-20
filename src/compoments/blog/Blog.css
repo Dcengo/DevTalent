@@ -1,0 +1,70 @@
+.blog-items{
+justify-content: space-between;
+    display: flex;
+
+}
+
+.blog-items>.item{
+    width: 29%;
+    border: 1px solid #F2F6FF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-items>.item>.top,
+.blog-items>.item>.top>img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.blog-items>.item>.bottom{
+    display: flex;
+    flex-direction: column;
+
+    text-align: left;
+    padding: 17px;
+}
+.blog-items>.item>.bottom>.title{
+    color: #241E6B;
+    font-size: 23px;
+    font-weight: 700;
+}
+.blog-items>.item>.bottom>.bt{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.blog-items>.item>.bottom>.bt> h5{
+    font-weight: 300;
+    color: #241E6B;
+    font-size: 13px;
+}
+.blog-items>.item>.bottom>.bt>.left{
+    background: #f5f9ff;
+    border-radius: 2px;
+    padding: 7px;
+}
+
+.margin-tp{
+    margin-top: 31px;
+}
+
+@media screen and (max-width: 540px){
+    .blog-items {
+        flex-wrap: wrap;
+    }
+
+    .blog-items>.item {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .portfolio-main {
+
+        margin-bottom: 27px;
+    }
+
+.blog{
+    padding: 0 15px;
+    margin-top: 30px;
+}
+}

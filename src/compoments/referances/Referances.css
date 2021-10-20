@@ -1,0 +1,148 @@
+h5{
+    margin: 0;
+}
+
+.nw-relative{
+    position: relative;
+    padding-bottom: 58px;
+    overflow: hidden;
+}
+
+.referances{
+    padding: 87px 0;
+    padding-bottom: 120px;
+    background: #241E6B;
+    margin-top: 70px;
+}
+
+.referances>.container>.top>.title{
+    font-family: 'Ubuntu';
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 42px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-in{
+    background: #fff;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+.slide-in>.top{
+    display: flex;
+    align-items: center;
+}
+
+.slide-in>.top>.circle{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+
+.slide-in>.top>.right{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.slide-in>.top>.right>.name{
+    margin: 0;
+    font-size: 22px;
+    color: #241E6B;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+}
+
+.slide-in>.top>.right>.title{
+    margin: 0;
+    font-size: 15px;
+    color: #8FAABE;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+
+.slide-in>.mid>.text{
+    text-align: left;
+    margin-top: 17px;
+    font-size: 14px;
+    font-family: Ubuntu;
+    color: #8FAABE;
+    font-weight: 400;
+}
+
+.slide-in>.bottom{
+    margin-top: 17px;
+}
+
+.swiper-pagination {
+    width: 94%;
+    bottom: 3px;
+}
+
+.swiper-pagination-bullet {
+    width: 13px !important;
+    height: 13px !important;
+    margin-left: 8px !important;
+    opacity: 0.2 !important;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1 !important;
+    background: #30E3CA !important;
+}
+
+.mobile-wd{
+    display: none;
+}
+
+@media screen and (max-width: 540px){
+
+
+    .main-tech>.bottom>.buttons>.button {
+
+        font-size: 18px;
+
+    }
+
+    .mobile-wd{
+        display: block;
+    }
+
+    .web-wd{
+        display: none;
+    }
+}
